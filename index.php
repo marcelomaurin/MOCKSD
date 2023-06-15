@@ -27,7 +27,30 @@ function SacD_register_moc() {
 function SacD_registra_log( WP_REST_Request $request ) {
     global $wpdb;
 
-    return 'Dados inseridos na tabela com sucesso.';
+    $sucesso =
+    '{
+           "sucesso": true,
+           "retorno": {
+           "texto": "Sucesso no retorno da mensagem:"
+           }
+      }';
+    $falha =
+    '{
+           "sucesso": false,
+           "retorno": {
+           "texto": "Ocorreu um erro / Não localizamos seu CPF / Nao ha dividas vinculadas a voce. Digite outro cpf ou # para voltar:"
+           }
+      }';
+    $email = $request->get_param('email');
+    if ($email="falha"){
+      $resposta = $falha;
+    }
+    else
+    {
+      $resposta = $sucesso;
+    }
+
+    return $resposta;
 }
 
 
