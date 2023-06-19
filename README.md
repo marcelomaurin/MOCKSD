@@ -1,6 +1,14 @@
 # MOCKSD
 MOCK SacDigital
 
+# Objetivo
+Moc de serviço do SACDigital
+
+https://sac.digital/
+
+Observação: Este projeto não tem vinculo com a empresa, foi desenvolvido por terceiro, e não tem ligação direta ou indireta com esta empresa.
+Este projeto é para teste, tendo sido criado para validação.
+
 # Procedimento de instalação
 
 1) Baixe o fonte
