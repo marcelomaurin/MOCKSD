@@ -16,10 +16,11 @@ add_action( 'rest_api_init', 'SacD_register_moc' );
 
 function SacD_register_moc() {
     //...
-    register_rest_route( 'SacD/v1', '/registra_log', array(
+    register_rest_route( 'SacD/v1', '/registra_log.php', array(
         'methods' => 'GET',
         'callback' => 'SacD_registra_log',
     ) );
+	
 }
 
 
@@ -42,7 +43,7 @@ function SacD_registra_log( WP_REST_Request $request ) {
            }
       }';
     $email = $request->get_param('email');
-    if ($email="falha"){
+    if ($email=="falha"){
       $resposta = $falha;
     }
     else
