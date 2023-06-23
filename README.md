@@ -13,7 +13,7 @@ Este projeto é para teste, tendo sido criado para validação.
 
 Instalação do Plugin
 ====================
-1) Baixe o fonte
+1) Baixe o fonte /php/plugin
 2) Copie o plugin para a pasta \www\wp-content\plugins
 3) Entre na wordpress, nos plugins, ative o plugin SACDigital
 
