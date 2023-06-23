@@ -2,7 +2,7 @@
 MOCK SacDigital
 
 # Objetivo
-Moc de serviço do SACDigital
+Exemplo de projeto "Mock" de serviço do SACDigital. Escritos em PHP, Wordpress, Java
 
 https://sac.digital/
 
